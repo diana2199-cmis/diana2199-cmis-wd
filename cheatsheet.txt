@@ -1,0 +1,10 @@
+clone: git clone --config="http.proxy=http://diana2199:diana@192.168.2.1:8080" https://github.com/diana2199-cmis/diana2199-cmis-wd.git
+ls: list
+cd: home
+cd .. : go up
+cat<file name>: view contents of a file
+gedit<filename>: add
+Add-Commit-Push
+git add <filename>
+git add commit -m "Added changes to <filename>"
+git push
