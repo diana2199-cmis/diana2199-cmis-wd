@@ -1,0 +1,19 @@
+Open terminal by clicking on terminal icon that is on the bottom-left corner, to the left of google chrome icon
+Start by cloning. 
+Type git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-to-your-repo
+When you successfully cloned, it will say "done." at the end
+Then, add new folder by typing gedit <filename>
+The file will show up and you can edit the file
+Type what you want to type it the file, then save by clicking on the save button that is on top of the file, next to the open button
+Close the file window
+Go back to the terminal and add the file in git
+Type git add <filename>
+If you successfully added your new file, terminal will automatically move to next line without showing anything
+Then, commit your file
+Type git commit -m "Added changes to <filename>" to show that you made changes to your file
+After commit, you have to push your file to your github
+Type git push in terminal
+Type your github username and password when terminal ask you to type username and password.
+Your new file is sucessfully save in github
+To edit your file that you created, type gedit <filename> 
+After you edited your file, you have to do the same process starting from #10 again
