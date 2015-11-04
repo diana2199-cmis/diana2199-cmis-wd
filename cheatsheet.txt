@@ -9,3 +9,4 @@ git add <filename>
 git commit -m "Added changes to <filename>"
 git push
 Opening file: gedit <filename>
+python -m SimpleHTTPServer
