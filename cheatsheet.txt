@@ -1,12 +1,23 @@
 clone: git clone --config="http.proxy=http://diana2199:diana@192.168.2.1:8080" https://github.com/diana2199-cmis/diana2199-cmis-wd.git
+
 ls: list
 cd: home
 cd .. : go up
 cat<file name>: view contents of a file
-gedit<filename>: add
+gedit<newfilename>: add
+Opening file: gedit <filename>
+python -m SimpleHTTPServer
+
 Add-Commit-Push
 git add <filename>
 git commit -m "Added changes to <filename>"
 git push
-Opening file: gedit <filename>
-python -m SimpleHTTPServer
+
+sftp commands
+sftp diana@cmis-hsteacher 
+put <filename> (upload a file)
+rm <filename> (remove a file)
+put * (upload all files)
+rm * (remove all files)
+
+
