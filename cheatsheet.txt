@@ -21,6 +21,6 @@ put * (upload all files)
 rm * (remove all files)
 
 Open Webpage
-localhost-8000
+localhost:8000
 
 
