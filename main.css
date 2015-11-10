@@ -1,13 +1,24 @@
 h1{
-	color:CadetBlue;
-	border:double;
+	color:SeaGreen;
+	font-size:42px;
+	font-family:Georgia;
+	border-style:inset;
+	border-width:8px;
+	border-color:MediumAquaMarine;
+	background-color:PaleTurquoise;
 }
 h2{
 	color: LightSeaGreen;
+	font-size:32px;
 }
 p{
 	color:MediumSeaGreen;
+	font-size:18px;
+	border-style:hidden;
+	
+	border-width:5px;
 }
 footer{
 	color:Teal;
+	font-size:12px;
 }
