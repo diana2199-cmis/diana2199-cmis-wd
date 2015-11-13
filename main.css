@@ -14,16 +14,11 @@
 *Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
 *Upload to the production server with sftp.
 *View your index.html in the production server.*/
-body{
-	border-style:solid;
-	border-width:8px;
-	border-color:LightBlue;
-}
 h1{
 	color:SeaGreen;
 	font-size:42px;
 	font-family:Georgia;
-	border-style:inset;
+	border-style:hidden;
 	border-width:8px;
 	border-color:MediumAquaMarine;
 	background-color:PaleTurquoise;
@@ -32,7 +27,16 @@ h2{
 	color: LightSeaGreen;
 	font-size:32px;
 	font-family:Serif;
-	border-style:Dotted;
+	border-style:hidden;
+	border-width:6px;
+	border-color:Cyan;
+	background-color:Cornsilk;
+}
+h3{
+	color: LightSeaGreen;
+	font-size:32px;
+	font-family:Serif;
+	border-style:Solid;
 	border-width:6px;
 	border-color:Cyan;
 	background-color:Cornsilk;
@@ -50,8 +54,8 @@ footer{
 	color:Teal;
 	font-size:12px;
 	font-family:Times New Roman;
-	border-style:Solid;
-	border-width:4px;
-	border-color:CornflowerBlue;
-	background-color:LightBlue;
+	border-style:None None Solid Solid;
+	border-width:4px 4px 5px 5px;
+	border-color:White White Yellow Blue;
+	background-color:Red;
 }
