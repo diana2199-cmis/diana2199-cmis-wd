@@ -22,5 +22,3 @@ rm * (remove all files)
 
 Open Webpage
 localhost:8000
-
-
