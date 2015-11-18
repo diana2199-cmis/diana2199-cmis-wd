@@ -27,5 +27,5 @@ localhost:8000       =       index.html
 localhost:8000/(foldername)
 
 New Subfolder
-mkdir (filename)
-rmdir (filename)
+mkdir (filename)    = make
+rmdir (filename)    = remove
