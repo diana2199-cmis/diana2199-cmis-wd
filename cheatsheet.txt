@@ -14,11 +14,18 @@ git commit -m "Added changes to <filename>"
 git push
 
 sftp commands
-sftp diana@cmis-hsteacher 
+sftp diana2199@cmis-hsteacher 
+type password
+cd public_html/
 put <filename> (upload a file)
 rm <filename> (remove a file)
 put * (upload all files)
 rm * (remove all files)
 
-Open Webpage
-localhost:8000
+Open Webpage from production server
+localhost:8000       =       index.html
+localhost:8000/(foldername)
+
+New Subfolder
+mkdir (filename)
+rmdir (filename)
