@@ -29,3 +29,6 @@ localhost:8000/(foldername)
 New Subfolder
 mkdir (filename)    = make
 rmdir (filename)    = remove
+
+Check if sftp is done correctly
+http://cmis-hsteacher/~diana2199/
