@@ -1,0 +1,19 @@
+h1{
+	border-color:Yellow;
+	border-style:solid;
+	border-width:1px;
+}
+header{
+	background-color:Red;
+}
+p1{
+	color:White;
+}
+main{
+	background-color:grey;
+}
+footer{
+	background-color:Blue;
+	color:White;
+	border-color:Blue;
+}
