@@ -8,4 +8,33 @@ h1{
 		background-color:PaleVioletRed;
 }
 nav{
+		font-size:16px;
+		font-family:Georgia;
+		border-style:Dotted;
+		border-color:CornFlowerBlue;
+		border-width:5px;
+		background-color:LightBlue;
+		margin:20px;
+}
+ul>li{
+		font-family:Georgia;
+		border-color:Cadetblue;
+		color:BurlyWood;
+		padding:3px;
+}
+ol>li{
+		font-family:arial;
+		color:Darkcyan;
+		background-color:Cornsilk;
+		border-color:Cornflowerblue;
+		padding:2px;
+		font-size:16px;
+}
+h1+ul{
+		font-family:arial;
+		font-size:16px;
+		border-color:firebrick;
+		background-color:gainsboro;
+		border-style:dotted;
+		margin:20px;
 }
