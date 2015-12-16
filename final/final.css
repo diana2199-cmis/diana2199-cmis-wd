@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html{
+	background-color:seashell;
+}
+h1{
+	color:Lightcyan;
+	background:Lightseagreen;
+	width:1000px;
+	font-size:45px;
+	font-family:Nunito;
+}
+h2{
+	color:Mistyrose;
+	background:Palevioletred;
+	width:800px;
+	font-family:Raleway;
+	font-size:30px;
+}
+h3{
+	color:Lightseagreen;
+	font-family:Montserrat;
+}
+p1{
+	color:MediumSlateblue;
+	background-color:Powderblue;
+	font-size:16px;
+	font-family:Montserrat;
+}
+nav{
+	float:left;
+	width:200px;
+	height:100px;
+	background-color:Lightpink;
+}
+main{
+	margin-left:201px;
+	width:800px;
+}
+article{
+	float:left;
+}
+img{
+	float:right;
+	border-style:double;
+	border-color:Pink;
+	border-width:10px;
+	background-color:white;
+}
+figcaption{
+	font-family:bitter;
+	color:Deeppink;
+}
+footer{
+	color:hotpink;
+	margin:12px;
+	font-family:bitter;
+}
